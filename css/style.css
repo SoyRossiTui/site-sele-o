@@ -1,0 +1,358 @@
+.jogadores {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 120px;
+}
+
+.jogador {
+    text-align: center;
+}
+
+.jogador img {
+    border-radius: 10px;
+    transition: 0.3s;
+
+
+
+    border-top: 8px solid gold;
+    margin-top: 15px;
+    padding-top: 1px;
+
+    border-left: 8px solid gold;
+    margin-top: 15px;
+    padding: 1px;
+
+    border-right: 8px solid gold;
+    margin-top: 15px;
+    padding: 1px;
+}
+
+.jogador img {
+    border-bottom: 8px solid gold;
+    padding-bottom: 1px;
+}
+
+.agenda h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.agenda {
+
+    border-top: 3px solid gold;
+    padding-top: 20px;
+    margin-top: 30px;
+}
+
+.time {
+    text-align: center;
+}
+
+.time h2 {
+    margin-bottom: 10px;
+}
+
+.time img {
+    width: 120px;
+}
+
+.vs {
+    color: darkred;
+    font-size: 30px;
+    font-weight: bold;
+
+    margin-top: 50px;
+}
+
+.jogo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+
+    border: 2px solid gold;
+    border-radius: 10px;
+
+    padding: 30px;
+
+    width: 600px;
+
+    margin: 30px auto;
+}
+
+
+
+.jogador img:hover {
+    transform: scale(1.05);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    background-color: rgb(11, 155, 11);
+
+    width: 500px;
+    margin: 20px auto;
+
+    border: 4px solid gold;
+    border-radius: 15px;
+
+    padding: 20px;
+
+    box-shadow: 0 0 15px gold;
+}
+
+.cabecalho1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    background-color: rgb(11, 155, 11);
+
+    width: 500px;
+    margin: 20px auto;
+
+    border: 4px solid gold;
+    border-radius: 15px;
+
+    padding: 20px;
+
+    box-shadow: 0 0 15px gold;
+}
+
+.testos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.fundinho1 {
+    background-color: rgb(228, 241, 202);
+}
+
+.logo {
+    width: 120;
+    height: auto;
+
+    margin-top: 30px;
+}
+
+nav {
+    border-top: 5px solid gold;
+    margin-top: 15px;
+    padding-top: 15px;
+
+    background-color: rgb(0, 0, 160);
+}
+
+nav {
+    border-bottom: 5px solid gold;
+    padding-bottom: 15px;
+
+}
+
+.navega ul {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+}
+
+.navega a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+
+}
+
+.navega a:hover {
+    color: gold;
+}
+
+.mensagem {
+    border-top: 5px solid gold;
+    padding-top: 15px;
+}
+
+.finalzin {
+    text-align: center;
+}
+
+.mensagem2 {
+    text-align: center;
+}
+
+.botao {
+    background-color: rgb(255, 255, 255);
+    color: blue;
+    padding: 10px 20px;
+    border-radius: 5px;
+
+}
+
+.botao:hover {
+    background-color: solid gold;
+    color: green;
+}
+
+.gks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    border: 4px solid green;
+    padding: 10px;
+
+}
+
+.defen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border: 4px solid blue;
+    padding: 10px;
+}
+
+.est2 {
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(239, 239, 235)
+}
+
+.est1 {
+    border: 3px solid;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(239, 239, 235)
+}
+
+.meioca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border: 4px solid green;
+    padding: 10px;
+}
+
+.titulo01 h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+.titulos1 {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+
+    border-right: 20px;
+    border-radius: 10px solid gold;
+    border: 5px solid gold;
+    padding-right: 30px;
+    padding-bottom: 15px;
+
+    background-color: rgb(150, 179, 19);
+}
+
+.linhas {
+    border: 10px white;
+    padding: 15px;
+}
+
+.final123 {
+    border: 3px solid;
+    border-radius: 30px;
+    padding: 10px;
+
+    width: 500px;
+    margin: 20px auto;
+
+}
+
+.titulos {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+
+    border-right: 20px;
+    border-radius: 10px solid gold;
+    border: 5px solid gold;
+    padding-left: 30px;
+    padding-bottom: 15px;
+
+    background-color: rgb(53, 140, 253);
+}
+
+.titulos9 {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 10px;
+
+    border-right: 20px;
+    border-radius: 10px solid gold;
+    border: 5px solid gold;
+    padding-left: 30px;
+    padding-bottom: 15px;
+
+    background-color: rgb(53, 140, 253);
+}
+
+.conteudo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.ataca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border: 4px solid blue;
+    padding: 10px;
+
+}
+
+.division {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-top: 2px solid green;
+    padding: 20px;
+
+}
+
+.division02 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    border-bottom: 2px solid green;
+    padding: 40px;
+}
